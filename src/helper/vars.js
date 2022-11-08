@@ -1,0 +1,15 @@
+export const REPO_PARENT = 'repos'
+export const CACHE_PARENT = 'caches'
+export const SVG_PARENT = 'svg'
+export const CHART_PARENT = 'chart'
+export const CURRENT_YEAR = new Date().getFullYear()
+export const LAST_YEAR = CURRENT_YEAR - 1
+export const SUMMARY_FILENAME = 'summary.json'
+export const COUNT_SVG_FILENAME = 'count.svg'
+export const UNIQUE_SVG_FILENAME = 'unique.svg'
+export const CHART_FILENAME = 'chart.png'
+export const COUNT_LABEL = 'Count'
+export const UNIQUE_LABEL = 'Unique'
+export const README = 'README.md'
+export const COMMITUSER = 'github-actions[bot]'
+export const COMMITEMAIL = 'github-actions[bot]@users.noreply.github.com'

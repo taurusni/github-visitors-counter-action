@@ -1,0 +1,12 @@
+name: 'GitHub Visitors Counter'
+description: 'An action to accumulate the number of visitors who have viewed the public repositories.'
+author: 'taurusni'
+inputs:
+  repo-token:
+    required: true
+    description: 'github token generated in the workflow - https://docs.github.com/en/actions/security-guides/automatic-token-authentication#permissions-for-the-github_token'
+  excluded-list:
+    description: 'a list of excluded public repositories'
+runs:
+  using: 'node16'
+  main: 'dist/index.js'
